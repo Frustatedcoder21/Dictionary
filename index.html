@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-800">
+    <header>
+        <nav class="bg-red-900 text-white">
+            <div class="flex items-end"><a href="index.html"><p class="">Dictionary</p></a></div>
+            <ul class="flex justify-end">
+                <li class="mx-2"><a href="index.html">Home</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <div class="middle my-2">
+        <div class="searchBox w-72 h-96 border-black border-2 mx-auto text-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg">
+            <input type="text" placeholder="e.g. Hello" class="value rounded-lg my-5 text-center" />
+            <button class="btn border-2 border-white bg-yellow-600 rounded-lg my-5">Search</button>
+            <div class="result-disp overflow-y-auto "></div>
+        </div>
+       
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
